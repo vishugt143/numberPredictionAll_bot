@@ -5,6 +5,8 @@ class Config:
     API_HASH = getenv("API_HASH", "79198e1eb4cfd0f771a89d83b9144e7e")
     BOT_TOKEN = getenv("BOT_TOKEN", "8499860611:AAFZFVR5p-gy44QijrsEQyMGBj2doVHh6Ts")
 
+    
+
     # Admin / Owner IDs (space-separated)
     SUDO = list(map(int, getenv(
         "SUDO",
